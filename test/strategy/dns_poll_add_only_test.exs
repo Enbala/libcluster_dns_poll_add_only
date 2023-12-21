@@ -22,7 +22,7 @@ defmodule Cluster.Strategy.DNSPollAddOnlyTest do
     end
   end
 
-  alias Cluster.Strategies.DNSPollAddOnly, as: DNSPoll
+  alias Cluster.Strategy.DNSPollAddOnly, as: DNSPoll
 
   describe "start_link/1" do
     test "adds new nodes" do

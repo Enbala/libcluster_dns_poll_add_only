@@ -1,4 +1,4 @@
-defmodule Cluster.Strategies.DNSPollAddOnly do
+defmodule Cluster.Strategy.DNSPollAddOnly do
   # credo:disable-for-this-file
   @moduledoc """
   Assumes you have nodes that respond to the specified DNS query (A record), and which follow the node name pattern of
